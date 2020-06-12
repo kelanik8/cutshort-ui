@@ -131,6 +131,9 @@ function App() {
                           <td>
                            <p className='text-muted'>81.56 %</p>
                           </td>
+                          <td>
+                           <img src='/assets/img/small-chart.svg' />
+                          </td>
                         </tr>
                         <tr>
                           <td>
@@ -147,6 +150,9 @@ function App() {
                           </td>
                           <td>
                            <p className='text-muted'>62.56 %</p>
+                          </td>
+                          <td>
+                           <img src='/assets/img/small-chart.svg' />
                           </td>
                         </tr>
                         <tr>
@@ -165,6 +171,9 @@ function App() {
                           <td>
                            <p className='text-muted'>58.76 %</p>
                           </td>
+                          <td>
+                           <img src='/assets/img/small-chart.svg' />
+                          </td>
                         </tr>
                         <tr>
                           <td>
@@ -181,6 +190,9 @@ function App() {
                           </td>
                           <td>
                            <p className='text-muted'>39.59 %</p>
+                          </td>
+                          <td>
+                           <img src='/assets/img/small-chart.svg' />
                           </td>
                         </tr>
                      
