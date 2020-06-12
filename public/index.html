@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/components.css">
+    
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/stisla.js"></script>
+
+    <script src="./assets/js/scripts.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://omnipotent.net/jquery.sparkline/2.1.1/jquery.sparkline.min.js"></script>
+
+    <script async>
+      window.onload = function(){
+        let ctx = document.getElementById("chart1").getContext('2d');
+        let myChart = new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
+            datasets: [{
+              label: 'Statistics',
+              data: [460, 458, 330, 502, 430, 610, 488, 550, 558, 390, 562, 490, 670, 538, 234, 345, 432, 120, 510, 410, 360, 450, 345, 555, 155, 433, 345,444, 510, 490, 480],
+              borderWidth: 2,
+              backgroundColor: 'rgba(63,82,227,.8)',
+              borderColor: 'rgba(63,82,227,.8)',
+              borderWidth: 2.5,
+              pointBackgroundColor: '#ffffff',
+              pointRadius: 4
+            }]
+          },
+          options: {
+            legend: {
+              display: false
+            },
+            scales: {
+              yAxes: [{
+                gridLines: {
+                  drawBorder: false,
+                  color: '#f2f2f2',
+                },
+                ticks: {
+                  beginAtZero: true,
+                  stepSize: 150
+                }
+              }],
+              xAxes: [{
+                gridLines: {
+                  display: false
+                }
+              }]
+            },
+          }
+        });
+      
+        let sparkline_values_chart = [2, 6, 4, 8, 3, 5, 2, 7, 2];
+        $('.sparkline-line-chart').sparkline(sparkline_values_chart, {
+          type: 'line',
+          width: '100%',
+          height: '62',
+          lineWidth: 2,
+          lineColor: '#0000f0',
+          fillColor: '#c0d0f0',
+          highlightSpotColor: 'rgba(63, 82, 227, .5)',
+          highlightLineColor: 'rgba(63, 82, 227, .5)',
+          spotRadius: 2,
+        });
+      }
+
+    </script>
+
+  </body>
+</html>
