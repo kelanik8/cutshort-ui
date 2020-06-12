@@ -60,7 +60,7 @@ function App() {
                     <p className='text-center text-danger'>
                       -11.9% <i className="fas fa-caret-down"></i>
                     </p>
-                    <div className="sparkline-line-chart"></div>
+                    <div className="sparkline-line-chart-2"></div>
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ function App() {
                     <p className='text-center text-success'>
                       +19.6% <i className="fas fa-caret-up"></i>
                     </p>
-                    <div className="sparkline-line-chart"></div>
+                    <div className="sparkline-line-chart-3"></div>
                   </div>
                 </div>
               </div>

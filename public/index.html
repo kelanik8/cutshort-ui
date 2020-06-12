@@ -75,7 +75,9 @@
             },
           }
         });
-      
+        
+
+        
         let sparkline_values_chart = [2, 6, 4, 8, 3, 5, 2, 7, 2];
         $('.sparkline-line-chart').sparkline(sparkline_values_chart, {
           type: 'line',
@@ -85,10 +87,34 @@
           lineColor: '#0000f0',
           fillColor: '#c0d0f0',
           highlightSpotColor: 'rgba(63, 82, 227, .5)',
-          highlightLineColor: 'rgba(63, 82, 227, .5)',
+          spotRadius: 2,
+        });
+
+        $('.sparkline-line-chart-2').sparkline(sparkline_values_chart, {
+          type: 'line',
+          width: '100%',
+          height: '62',
+          lineWidth: 2,
+          lineColor: 'rgb(99, 237, 122)',
+          fillColor: '#c0f5c9',
+          highlightSpotColor: 'rgb(99, 237, 122)',
+          spotRadius: 2,
+        });
+
+        $('.sparkline-line-chart-3').sparkline(sparkline_values_chart, {
+          type: 'line',
+          width: '100%',
+          height: '62',
+          lineWidth: 2,
+          lineColor: '#f9ac50',
+          fillColor: '#fce8d2',
+          highlightSpotColor: '#f9ac50',
           spotRadius: 2,
         });
       }
+
+
+      // rgb(99, 237, 122) #f9ac50
 
     </script>
 
