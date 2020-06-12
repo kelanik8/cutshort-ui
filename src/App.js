@@ -10,7 +10,7 @@ function App() {
       <Sidebar />
       <div className='main-content'>
         <section className='section mt-4'>
-          <div className="section-body">
+          <div className="section-body pb-5">
             <div className='row'>
               <div className="col-12 col-sm-12 col-lg-12">
               <div className="card border">
@@ -97,7 +97,7 @@ function App() {
                 </div>
               </div>
               <div className='col-12 col-sm-12 col-lg-8'>
-                <div className="card border">
+                <div className="card border" style={{ height: '100%' }}>
                   <div className="card-header">
                     <h4 className='text-dark'>Most Visited Pages</h4>
                   </div>
@@ -203,7 +203,7 @@ function App() {
                 </div>
               </div>
               <div className="col-12 col-sm-12 col-lg-4">
-                <div className="card border">
+                <div className="card border" style={{ height: '100%' }}>
                   <div className="card-header">
                     <h4 className='text-dark'>Social Media Traffic</h4>
                   </div>
@@ -228,7 +228,7 @@ function App() {
                         </tr>
                         <tr>
                           <td>LinkedIn</td>
-                          <td className="d-flex" style={{ alignItems: 'center' }}><p className="m-0 mr-3">62</p><div className="ml-auto"><div className="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style={{ height: '4px', width: '100px' }}><div className="progress-bar bg-primary" data-width="20" style={{ width: '20px' }}></div></div></div></td>
+                          <td className="d-flex" style={{ alignItems: 'center' }}><p className="m-0 mr-3">62</p><div className="ml-auto"><div className="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style={{ height: '4px', width: '100px' }}><div className="progress-bar bg-primary" data-width="5" style={{ width: '5px' }}></div></div></div></td>
                         </tr>
                       </tbody>
                       </table>
