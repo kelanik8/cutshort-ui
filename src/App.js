@@ -216,19 +216,19 @@ function App() {
                         </tr>
                         <tr>
                           <td>Instagram</td>
-                          <td className="d-flex" style={{ alignItems: 'center' }}><p className="m-0 mr-3">3,550</p><div className=""><div className="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style={{ height: '4px', width: '100px' }}><div className="progress-bar bg-primary" data-width="80" style={{ width: '80px' }}></div></div></div></td>
+                          <td className="d-flex" style={{ alignItems: 'center' }}><p className="m-0 mr-3">3,550</p><div className="ml-auto"><div className="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style={{ height: '4px', width: '100px' }}><div className="progress-bar bg-primary" data-width="80" style={{ width: '80px' }}></div></div></div></td>
                           </tr>
                         <tr>
                           <td>Facebook</td>
-                          <td className="d-flex" style={{ alignItems: 'center' }}><p className="m-0 mr-3">2,236</p><div className=""><div className="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style={{ height: '4px', width: '100px' }}><div className="progress-bar bg-primary" data-width="60" style={{ width: '60px' }}></div></div></div></td>
+                          <td className="d-flex" style={{ alignItems: 'center' }}><p className="m-0 mr-3">2,236</p><div className="ml-auto"><div className="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style={{ height: '4px', width: '100px' }}><div className="progress-bar bg-primary" data-width="60" style={{ width: '60px' }}></div></div></div></td>
                         </tr>
                         <tr>
                           <td>Twitter</td>
-                          <td className="d-flex" style={{ alignItems: 'center' }}><p className="m-0 mr-3">1,795</p><div className=""><div className="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style={{ height: '4px', width: '100px' }}><div className="progress-bar bg-primary" data-width="50" style={{ width: '50px' }}></div></div></div></td>
+                          <td className="d-flex" style={{ alignItems: 'center' }}><p className="m-0 mr-3">1,795</p><div className="ml-auto"><div className="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style={{ height: '4px', width: '100px' }}><div className="progress-bar bg-primary" data-width="50" style={{ width: '50px' }}></div></div></div></td>
                         </tr>
                         <tr>
                           <td>LinkedIn</td>
-                          <td className="d-flex" style={{ alignItems: 'center' }}><p className="m-0 mr-3">62</p><div className=""><div className="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style={{ height: '4px', width: '100px' }}><div className="progress-bar bg-primary" data-width="20" style={{ width: '20px' }}></div></div></div></td>
+                          <td className="d-flex" style={{ alignItems: 'center' }}><p className="m-0 mr-3">62</p><div className="ml-auto"><div className="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style={{ height: '4px', width: '100px' }}><div className="progress-bar bg-primary" data-width="20" style={{ width: '20px' }}></div></div></div></td>
                         </tr>
                       </tbody>
                       </table>
